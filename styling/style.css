@@ -1,0 +1,85 @@
+:root {
+    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../images/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg); /*Have to use .. if they are not in the same folder*/ 
+    background-size: cover;
+}
+
+.wrapper {
+    background-image: url(../images/kelly-sikkema-FxGfjHNrsnI-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 350px;
+    margin-top: 5%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: large;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+input {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: medium;
+    text-align: 1rem;
+    border: 2px solid #A1857D;
+    border-radius: 8px;
+    width: 100%;
+    padding: 0.3rem 0 0.3rem 0.3rem;
+}
+
+button {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: medium;
+    background-color: #A1857D;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 0.4rem;
+    margin: 8% 55% 10% 35%;
+}
+
+button:hover {
+    color: #ffffff;
+    border: 2px solid #A1857D;
+    background-color: transparent;
+}
+
+#book_cover {
+    color: #000000;
+    font-family: var(--font);
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#book_cover > a {
+    text-decoration: underline;
+}
+
+#library_background {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: smaller;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+#library_background > a {
+    text-decoration: underline;
+    background-color: #000000;
+}
