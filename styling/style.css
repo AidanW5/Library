@@ -28,6 +28,7 @@ label {
     width: 100%;
     display: flex;
     text-align: center;
+    margin-left: 5%;
 }
 
 input {
@@ -35,6 +36,7 @@ input {
     font-family: var(--font);
     font-size: medium;
     text-align: 1rem;
+    margin-left: 5%;
     border: 2px solid #A1857D;
     border-radius: 8px;
     width: 100%;
