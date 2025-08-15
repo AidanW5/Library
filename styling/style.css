@@ -43,6 +43,23 @@ input {
     padding: 0.3rem 0 0.3rem 0.3rem;
 }
 
+select {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: medium;
+    text-align: 1rem;
+    margin-left: 5%;
+    border: 2px solid #A1857D;
+    border-radius: 8px;
+    width: 100%;
+    padding: 0.3rem 0 0.3rem 0.3rem;
+}
+
+option {
+    color: #A1857D;
+    background-color: #ffffff;
+}
+
 button {
     color: #ffffff;
     font-family: var(--font);
