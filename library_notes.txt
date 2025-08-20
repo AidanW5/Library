@@ -1,0 +1,45 @@
+To-do-list
+    --Figure out if want new page for open book or animation type
+    --Have you read book option
+
+Overall
+    --Input info on the front page of a book
+    --Open book and have book info on open pages
+    --Library image for background
+
+HTML
+    --May need to create divs for each label/input
+    --Add min to pages
+
+
+CSS
+    --Images for book cover, open book, and library background
+    --Style form
+    --Style and position a tags
+    --Have you read the book option
+    --Want fancier font for open book
+        --Maybe download
+
+Javascript
+    --When button is clicked info is taken in
+        --getElementbyId().value
+        --Store info and add id
+    --Get the has read book option
+    --Transition to open book to show all books that have been inputed
+        --onclick
+    --Option in open book to change true/false for Have you read it?
+    --Option to open book without entering info
+    --Delete book info if more than 5 books are inputed
+
+
+Background book case
+--Photo by <a href="https://unsplash.com/@inakihxz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Iñaki del Olmo</a> on <a href="https://unsplash.com/photos/assorted-title-of-books-piled-in-the-shelves-NIJuEQw0RKg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+
+Book cover
+--Photo by <a href="https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/a-book-sitting-on-top-of-a-wooden-table-FxGfjHNrsnI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+
+Open book
+--Photo by <a href="https://unsplash.com/@enginakyurt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">engin akyurt</a> on <a href="https://unsplash.com/photos/white-book-with-blue-pen-IZj7vckPGiw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
