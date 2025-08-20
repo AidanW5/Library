@@ -26,6 +26,7 @@ Javascript
         --getElementbyId().value
         --Store info and add id?
     --Fix what child open book button is
+        --Add id to open book button
         --Make open book button open book
     --Option in open book to change true/false for Have you read it?
     --Option to open book without entering info
