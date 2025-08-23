@@ -1,15 +1,9 @@
 To-do-list
-    --Work on open book button
-    --?Have you read book option
-
-Overall
-    --Input info on the front page of a book
-    --Open book and have book info on open pages
-    --Library image for background
+    --Make open book button open book
 
 HTML
-    --May need to create divs for each label/input
-    --Add min to pages
+    --$May need to create divs for each label/input
+    --$Add min to pages
 
 
 CSS
@@ -17,19 +11,19 @@ CSS
     --$Style form
     --$Style and position a tags
     --$Have you read the book option
-    --Style open book button
+    --$Style open book button
+        --$Fix font
     --Want fancier font for open book
         --Maybe download
 
 Javascript
-    --When button is clicked info is taken in
-        --getElementbyId().value
+    --$When button is clicked info is taken in
+        --$getElementbyId().value
         --Store info and add id?
-    --Fix what child open book button is
-        --Add id to open book button
+    --$Fix what child open book button is
+        --$Add class to open book button
         --Make open book button open book
-    --Option in open book to change true/false for Have you read it?
-    --Option to open book without entering info
+            --Need type of button
     --Delete book info if more than 5 books are inputed
 
 

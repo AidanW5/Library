@@ -13,9 +13,13 @@ form.addEventListener('submit', (e) => {
     //Delete Submit button
     document.getElementById('submit_btn').remove();
 
+    //Get book cover a-tags
+    const coverSource = document.getElementById('book_cover');
+
     //Add open book button
     const openBtn = document.createElement('button');
-    const btnText = document.getElementsByTagName('button').innerHTML = "Open Book";
+    openBtn.classList.add('openButton');
+    openBtn.innerHTML = "Open Book";
 
-    form.append(openBtn)
+    form.insertBefore(openBtn, coverSource);
 })

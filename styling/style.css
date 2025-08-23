@@ -62,10 +62,11 @@ select {
     font-family: var(--font);
     font-size: medium;
     text-align: 1rem;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 1.25%;
     border: 2px solid #A1857D;
     border-radius: 8px;
-    width: 100%;
+    width: 106%;
     padding: 0.3rem 0 0.3rem 0.3rem;
 }
 
@@ -74,18 +75,41 @@ option {
     background-color: #ffffff;
 }
 
-button {
+#submit_btn {
     color: #ffffff;
     font-family: var(--font);
     font-size: medium;
+    text-align: center;
+    width: 35%;
+    height: 10%;
     background-color: #A1857D;
     border: 2px solid #ffffff;
     border-radius: 8px;
     padding: 0.4rem;
-    margin: 2rem 30% 2rem 30%;
+    margin: 2rem 27% 2rem 33%;
 }
 
-button:hover {
+#submit_btn:hover {
+    color: #ffffff;
+    border: 2px solid #A1857D;
+    background-color: transparent;
+}
+
+.openButton {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: medium;
+    text-align: center;
+    width: 35%;
+    height: 10%;
+    background-color: #A1857D;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 0.4rem;
+    margin: 2rem 27% 2rem 33%; 
+}
+
+.openButton:hover {
     color: #ffffff;
     border: 2px solid #A1857D;
     background-color: transparent;
@@ -97,6 +121,7 @@ button:hover {
     font-size: smaller;
     text-align: center;
     margin-bottom: 0%;
+    margin-left: 7%;
 }
 
 #book_cover > a {
