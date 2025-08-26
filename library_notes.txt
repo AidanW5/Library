@@ -22,8 +22,9 @@ Javascript
         --Store info and add id?
     --$Fix what child open book button is
         --$Add class to open book button
-        --Make open book button open book
-            --Need type of button
+        --$Make open book button open book
+    --Remove labels and input
+    --Add writing with book info
     --Delete book info if more than 5 books are inputed
 
 

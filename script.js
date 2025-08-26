@@ -22,4 +22,17 @@ form.addEventListener('submit', (e) => {
     openBtn.innerHTML = "Open Book";
 
     form.insertBefore(openBtn, coverSource);
+
+    //Make button open book
+    openBtn.addEventListener('click', function openBook() {
+        //Change and style background image
+        form.style.backgroundImage = "url(../images/engin-akyurt-IZj7vckPGiw-unsplash.jpg)";
+        form.style.height = "560px";
+        form.style.width = "525px";
+        form.style.marginLeft = "37%";
+
+        //Remove input and add text
+        form.getElementsByTagName('label').remove();
+        form.getElementsByTagName('input').remove();
+    });
 })
