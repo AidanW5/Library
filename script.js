@@ -10,6 +10,17 @@ form.addEventListener('submit', (e) => {
     const pages = document.getElementById('total_pages').value;
     const read = document.getElementById('readtf').value;
 
+    //Capitalize read variable
+    const read2 = read.charAt(0).toUpperCase() + read.slice(1);
+    
+    //Create New Book Object
+    newBook = {
+        "Author": author,
+        "Title": title,
+        "Pages": pages,
+        "Read": read2
+    };
+    
     //Delete Submit button
     document.getElementById('submit_btn').remove();
 
@@ -30,9 +41,38 @@ form.addEventListener('submit', (e) => {
         form.style.height = "560px";
         form.style.width = "525px";
         form.style.marginLeft = "37%";
+        form.style.alignItems = "normal";
 
-        //Remove input and add text
-        form.getElementsByTagName('label').remove();
-        form.getElementsByTagName('input').remove();
+        //Function to clear form
+        function removeAllChildNodes(parent) {
+            while(parent.firstChild) {
+                parent.removeChild(parent.firstChild);
+            }
+        }
+
+        removeAllChildNodes(form)
+
+        //Put book info in open book
+        form.innerHTML = `
+        <div id="author_div">
+            <p>Author:</p>
+            <p id="newbook_author">${newBook.Author}</p>
+        </div>
+        <div>
+            <p>Title:</p>
+            <p id="newbook_title">${newBook.Title}</p>
+        </div>
+        <div>
+            <p>Pages:</p>
+            <p id="newbook_page">${newBook.Pages}</p>
+        </div>
+        <div>
+            <p>Have you read the book?</p>
+            <p id="newbook_read">${newBook.Read}</p>
+        </div>
+        <div id="open_book">
+            <a href="https://unsplash.com/@enginakyurt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">engin akyurt</a> on 
+            <a href="https://unsplash.com/photos/white-book-with-blue-pen-IZj7vckPGiw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </div>`
     });
 })

@@ -21,20 +21,6 @@ body {
     justify-content: center;
 }
 
-/*.new-wrapper {
-    background-image: url(../images/engin-akyurt-IZj7vckPGiw-unsplash.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 500px;
-    width: 350px;
-    margin-top: 5%;
-    margin-left: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}*/
-
 label {
     color: #ffffff;
     font-family: var(--font);
@@ -115,6 +101,37 @@ option {
     background-color: transparent;
 }
 
+#author_div {
+    margin-top: -20%;
+}
+
+div > p {
+    color: #000000;
+    font-size: larger;
+    margin-bottom: 4%;
+    margin-left: 6%;
+}
+
+#newbook_author {
+    margin-top: -8%;
+    margin-left: 55%;
+}
+
+#newbook_title {
+    margin-top: -8%;
+    margin-left: 55%;
+}
+
+#newbook_page {
+    margin-top: -8%;
+    margin-left: 55%;
+}
+
+#newbook_read {
+    margin-top: -8%;
+    margin-left: 55%;
+}
+
 #book_cover {
     color: #000000;
     font-family: var(--font);
@@ -140,4 +157,17 @@ option {
 #library_background > a {
     text-decoration: underline;
     background-color: #000000;
+}
+
+#open_book {
+    color: #000000;
+    font-family: var(--font);
+    font-size: smaller;
+    text-align: right;
+    margin-top: 20%;
+    margin-right: 7%;
+}
+
+#open_book > a {
+    text-decoration: underline;
 }
